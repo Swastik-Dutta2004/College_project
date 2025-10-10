@@ -1,3 +1,5 @@
-course = "Python \nProgrammming"
+course = "Python Programmming"
 
-print (course)
+print(course.upper())
+print(course.lower())
+print(course.title())
