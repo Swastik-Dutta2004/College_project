@@ -40,7 +40,11 @@
 # for item in "shopping_cart":
 #     print(item)
 
-command = ""
-while command.lower() != "quit":
-    command = input(">")
-    print ("ECHO", command)
+# command = ""
+# while command.lower() != "quit":
+#     command = input(">")
+#     print ("ECHO", command)
+
+for x in range (1, 10):
+    if x % 2 == 0:
+        print(x)
