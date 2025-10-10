@@ -25,6 +25,22 @@
 # if high_income or good_credit or not student:
 #     print("Eligible")
 
-age = 22
-if 18 <= age < 65:
-    print("Eligible")
+# age = 22
+# if 18 <= age < 65:
+#     print("Eligible")
+
+# for number in range (1, 10, 2):
+#     print("Attemps", number, (number + 1) * ".")
+
+# for x in range(5):
+#     for y in range (3): 
+#         print(f"({x}, {y})")
+
+
+# for item in "shopping_cart":
+#     print(item)
+
+command = ""
+while command.lower() != "quit":
+    command = input(">")
+    print ("ECHO", command)
