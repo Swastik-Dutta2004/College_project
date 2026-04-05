@@ -1,0 +1,25 @@
+.Card{
+    background-color: rgb(221, 121, 121);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: rgb(red, green, blue);
+    text-align: center;
+    width: 300px;
+}
+
+input{
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    text-align: center;
+    font-size: medium;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+    padding: 5px;
+}
