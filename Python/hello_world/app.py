@@ -45,6 +45,15 @@
 #     command = input(">")
 #     print ("ECHO", command)
 
-for x in range (1, 10):
-    if x % 2 == 0:
-        print(x)
+# count = 0
+# for x in range (1, 10):
+#     if x % 2 == 0:
+#         count += 1
+#         print(x)
+# print(f"We have {count} even numbers")
+
+def greet(first_name, last_name):
+    print(f"Hii {first_name} {last_name}")
+    print("Welcome abord")
+greet("Swastik", "Dutta")
+greet("Sougata", "Dutta")
